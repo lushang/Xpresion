@@ -2756,7 +2756,17 @@ Xpresion.init = function( ) {
     // functional operators
     // ====================
     ,'functions' : {
-     'min'      : {
+     'log'     : {
+                    'input'     : 'log'
+                    ,'output'   : 'Math.log(<$.0>)'
+                    ,'otype'    : T_NUM
+                }
+    ,'exp'     : {
+                    'input'     : 'exp'
+                    ,'output'   : 'Math.exp(<$.0>)'
+                    ,'otype'    : T_NUM
+                }
+    ,'min'      : {
                     'input'     : 'min'
                     ,'output'   : 'Math.min(<$.0>)'
                     ,'otype'    : T_NUM
@@ -2769,6 +2779,16 @@ Xpresion.init = function( ) {
     ,'pow'      : {
                     'input'     : 'pow'
                     ,'output'   : 'Math.pow(<$.0>)'
+                    ,'otype'    : T_NUM
+                }
+    ,'round'     : {
+                    'input'     : 'round'
+                    ,'output'   : 'Math.round(<$.0>)'
+                    ,'otype'    : T_NUM
+                }
+    ,'sign'     : {
+                    'input'     : 'sign'
+                    ,'output'   : 'Math.sign(<$.0>)'
                     ,'otype'    : T_NUM
                 }
     ,'sqrt'     : {
