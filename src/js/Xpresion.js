@@ -2756,7 +2756,12 @@ Xpresion.init = function( ) {
     // functional operators
     // ====================
     ,'functions' : {
-     'log'     : {
+        'lg': {
+                    'input'     : 'lg'
+                    ,'output'   : 'Math.log(<$.0>)/Math.log(10)'
+                    ,'otype'    : T_NUM
+                }
+        ,'log': {
                     'input'     : 'log'
                     ,'output'   : 'Math.log(<$.0>)'
                     ,'otype'    : T_NUM
